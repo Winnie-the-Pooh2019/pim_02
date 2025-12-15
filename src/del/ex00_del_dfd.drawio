@@ -1,0 +1,196 @@
+<mxfile host="drawio-plugin" modified="2025-12-15T07:46:47.868Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="4bTsl7TweBBeYPdt5czn" version="22.1.22" type="embed">
+  <diagram id="del-dfd-l0" name="DFD L0 (to be)">
+    <mxGraphModel dx="2093" dy="1467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="note" value="DFD Level 0 (to be) — del&#xa;Цель: внешние сущности, процессы, хранилища и потоки данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="20" y="-50" width="520" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E_SUPPLIER" value="Поставщик&#xa;(магазин/кафе)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="40" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_OPERATOR" value="Оператор ввода" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="165" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E_COURIER" value="Курьер&#xa;(мобильное приложение)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="250" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_DISPATCH" value="Диспетчер" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="510" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E_CUSTOMER" value="Клиент&#xa;(получатель)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="650" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ACC" value="Бухгалтерия" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="845" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E_MAPS" value="Карты/геокодинг&#xa;и маршрутизация" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="440" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_NOTIFY" value="Сервис уведомлений" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="540" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E_PAY" value="Провайдер платежей&#xa;(опционально)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="730" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P1" value="1. Регистрировать заказ" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="390" y="30" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P2" value="2. Назначать доставку" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="390" y="170" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P3" value="3. Отслеживать доставку" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="400" y="340" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P4" value="4. Информировать участников" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="400" y="540" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5" value="5. Передавать расчёты" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="390" y="740" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1" value="D1 Заказы" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D2" value="D2 Состав заказа" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="-30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D3" value="D3 Назначения" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="180" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D4" value="D4 События/статусы" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5" value="D5 POD" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6" value="D6 Инциденты" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="690" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D7" value="D7 Выплаты" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="895" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D8" value="D8 Уведомления" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="590" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_supplier_p1" value="данные заказа" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="E_SUPPLIER" target="P1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_operator_p1" value="ввод/правка заказа" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="E_OPERATOR" target="P1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p1_d1" value="заголовок заказа" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P1" target="D1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p1_d2" value="позиции заказа" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P1" target="D2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d1_p1" value="подтверждение/статусы" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="D1" target="P1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p1_supplier" value="подтверждение/статусы" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P1" target="E_SUPPLIER" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d1_p2" value="доступные заказы" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="D1" target="P2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_courier_p2" value="бронь/отказ" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="E_COURIER" target="P2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dispatch_p2" value="переназначение/приоритет" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="E_DISPATCH" target="P2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p2_d3" value="назначение" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P2" target="D3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p2_d4" value="событие назначения" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P2" target="D4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_courier_p3" value="статусы/GPS/POD" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="E_COURIER" target="P3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_customer_p3" value="POD/обращение" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="E_CUSTOMER" target="P3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d3_p3" value="актуальное назначение" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="D3" target="P3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p3_d4" value="события статуса" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P3" target="D4" edge="1">
+          <mxGeometry x="0.2676" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p3_d5" value="POD" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P3" target="D5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p3_d6" value="инцидент" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P3" target="D6" edge="1">
+          <mxGeometry x="0.632" y="7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_d1_p4" value="адреса/окна" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="D1" target="P4" edge="1">
+          <mxGeometry x="0.1311" y="-35" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_d4_p4" value="текущие статусы" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="D4" target="P4" edge="1">
+          <mxGeometry x="-0.2914" y="9" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p4_maps" value="запрос маршрута/ETA" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P4" target="E_MAPS" edge="1">
+          <mxGeometry x="-0.1637" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_maps_p4" value="маршрут/ETA" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="E_MAPS" target="P4" edge="1">
+          <mxGeometry x="-0.4017" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p4_notify" value="сообщения" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P4" target="E_NOTIFY" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_notify_p4" value="статус доставки" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="E_NOTIFY" target="P4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p4_d8" value="журнал уведомлений" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P4" target="D8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_d1_p5" value="реестры заказов" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="D1" target="P5" edge="1">
+          <mxGeometry x="0.1026" y="-17" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_d4_p5" value="факты доставки" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="D4" target="P5" edge="1">
+          <mxGeometry x="0.3745" y="-7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_d5_p5" value="POD" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="D5" target="P5" edge="1">
+          <mxGeometry x="-0.0997" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p5_acc" value="реестры начислений" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P5" target="E_ACC" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_acc_p5" value="статусы выплат" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="E_ACC" target="P5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p5_d7" value="выплаты" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P5" target="D7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p5_courier" value="начисления/статусы" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P5" target="E_COURIER" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p5_pay" value="запрос оплаты/возврата" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="P5" target="E_PAY" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pay_p5" value="статус платежа" style="endArrow=block;html=1;rounded=0;fontSize=10;" parent="1" source="E_PAY" target="P5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
